@@ -9,7 +9,7 @@
   (set! upper (max lower (sub1 (guess))))
   (guess))
 
-(define (upper)
+(define (bigger)
   (set! lower (min upper (add1 (guess))))
   (guess))
 
